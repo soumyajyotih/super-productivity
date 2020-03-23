@@ -62,7 +62,6 @@ deploy:
   - on:
       condition: $TRAVIS_OS_NAME = linux
       tags: false
-      branch: master
     provider: snap
     snap: ./app-builds/*.snap
     channel: edge
