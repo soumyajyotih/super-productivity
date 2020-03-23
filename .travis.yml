@@ -59,9 +59,7 @@ matrix:
 #
 
 deploy:
-  - on:
-      condition: $TRAVIS_OS_NAME = linux
-    provider: snap
+  - provider: snap
     snap: ./app-builds/*.snap
     channel: edge
     skip_cleanup: true
