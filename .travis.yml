@@ -74,6 +74,7 @@ deploy:
     channel: candidate
     skip_cleanup: true
 
+
 # NOTE: disabled until next release of electron builder and until electron works with osx again
 #  - on:
 #      branch: master
